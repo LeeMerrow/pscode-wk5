@@ -9,13 +9,11 @@ output num1+num2 = 15
 
 make num3
 input num3 = 3
-check num3 = whole number
-if not then output "num3 is not a whole number"
+if num3%1!=0 then output "num3 is not a whole number, please enter a whole number"
 make oddeven
-oddeven= num3/2 = 1.5
-check oddeven = whole number 
-if yes then output "num3 is even"
-if no then output "num3 is odd"
+oddeven= num3%2 = 1
+if oddeven=0 then output "num3 is even"
+else output "num3 is odd"
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -35,8 +33,8 @@ average=math/5=16.8
 
 
 make largeNum , smallNum
-if num4>=num5  then largeNum=num4 && smallNum=num5 //example does not trigger
-if num4<num5 then largeNum=num5 && smallNum=num4 //largeNum=30 smallNum=7
+if num4>=num5  then largeNum=num4 and smallNum=num5 //example does not trigger
+if num4<num5 then largeNum=num5 and smallNum=num4 //largeNum=30 smallNum=7
 
 if largeNum<num6 then largeNum=num6 //example does not trigger
 if smallNum>num6 then smallNum=num6 //example does not trigger
