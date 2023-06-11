@@ -35,8 +35,8 @@ average=math/5=16.8
 
 
 make largeNum , smallNum
-if num4>=num5  then largeNum=num4 and smallNum=num5 //example does not trigger
-if num4<num5 then largeNum=num5 and smallNum=num4 //largeNum=30 smallNum=7
+if num4>=num5  then largeNum=num4 && smallNum=num5 //example does not trigger
+if num4<num5 then largeNum=num5 && smallNum=num4 //largeNum=30 smallNum=7
 
 if largeNum<num6 then largeNum=num6 //example does not trigger
 if smallNum>num6 then smallNum=num6 //example does not trigger
