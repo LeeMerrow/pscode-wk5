@@ -1,0 +1,55 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+make num1 and num2
+input num1 = 5
+input num2 = 10
+output num1+num2 = 15
+
+// Exercise 2: Check if a Number is Even or Odd
+
+make num3
+input num3 = 3
+check num3 = whole number
+if not then output "num3 is not a whole number"
+make oddeven
+oddeven= num3/2 = 1.5
+check oddeven = whole number 
+if yes then output "num3 is even"
+if no then output "num3 is odd"
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+make num4, num5, num6, num7, num8
+input num4=7 , num5=30 , num6=20 , num7=25 , num8=2
+
+make math
+math=num4+num5+num6+num7+num8=84
+make average
+average=math/5=16.8
+
+
+make largeNum , smallNum
+if num4>=num5  then largeNum=num4 and smallNum=num5 //example does not trigger
+if num4<num5 then largeNum=num5 and smallNum=num4 //largeNum=30 smallNum=7
+
+if largeNum<num6 then largeNum=num6 //example does not trigger
+if smallNum>num6 then smallNum=num6 //example does not trigger
+
+if largeNum<num7 then largeNum=num7 //example does not trigger
+if smallNum>num7 then smallNum=num7 //example does not trigger
+
+if largeNum<num8 then largeNum=num8 //example does not trigger
+if smallNum>num8 then smallNum=num8 //smallNum=2
+
+print "The average of the numbers is " average
+print "The largest number is " largeNum " and the smallest number is " smallNum
+
+
+
+-- END --
