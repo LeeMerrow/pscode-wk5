@@ -9,11 +9,11 @@ output num1+num2 = 15
 
 make num3
 input num3 = 3
-if num3%1!=0 then output "num3 is not a whole number, please enter a whole number"
+if num3%1!=0 then output num3 " is not a whole number, please enter a whole number"
 make oddeven
-oddeven= num3%2 = 1
+oddeven= num3%2 //oddeven=1
 if oddeven=0 then output "num3 is even"
-else output "num3 is odd"
+else output "num3 is odd" //output triggers
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -45,8 +45,8 @@ if smallNum>num7 then smallNum=num7 //example does not trigger
 if largeNum<num8 then largeNum=num8 //example does not trigger
 if smallNum>num8 then smallNum=num8 //smallNum=2
 
-print "The average of the numbers is " average
-print "The largest number is " largeNum " and the smallest number is " smallNum
+print "The average of the numbers is " average //average=16.8
+print "The largest number is " largeNum " and the smallest number is " smallNum //largeNum=30 smallNum=2
 
 
 
